@@ -1,6 +1,6 @@
-# Mobile 工具包
+# Mobiler 工具包
 
-mobile 包用于进行一些手机相关的操作
+mobiler 包用于进行一些手机相关的操作
 
 这些操作有：
 
