@@ -8,7 +8,7 @@ import (
 func TestMobiler(t *testing.T) {
 	mobiler := Mobiler{}
 
-	err := mobiler.LoadSegments("./data.txt")
+	err := mobiler.LoadData("./data.txt")
 
 	if err != nil {
 		assert.Panic(t, err, func() {})

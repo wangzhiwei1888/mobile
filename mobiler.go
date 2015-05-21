@@ -22,8 +22,8 @@ type Mobiler struct {
 	nis map[string]NetworkIdentifier
 }
 
-// LoadSegments 方法用于加载手机号码段数据
-func (self *Mobiler) LoadSegments(path string) (err error) {
+// LoadData 方法用于加载手机号码段数据
+func (self *Mobiler) LoadData(path string) (err error) {
 	log.Printf("加载号码段数据文件：%s。\n", path)
 	segmentsFile, err := os.Open(path)
 	defer segmentsFile.Close()
