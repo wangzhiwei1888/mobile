@@ -1,4 +1,4 @@
-package mobile
+package mobiler
 
 import (
 	"git.egret.io/go/assert"

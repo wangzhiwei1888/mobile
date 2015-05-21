@@ -1,4 +1,4 @@
-package mobile
+package mobiler
 
 // NetworkIdentifier 定义了网络识别号
 type NetworkIdentifier struct {
